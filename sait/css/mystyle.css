@@ -1,0 +1,107 @@
+tr{
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  padding: 7px; 
+  border: 1px solid #666; 
+}
+body{
+  background-image: url(фон_конец.png);
+  background-size: cover;
+}
+h2{
+  text-align: center;
+  font-family: Century Gothic, cursive;
+}
+h1{
+  text-align: center;
+  font-family: Century Gothic, cursive;
+}
+header{
+  background: #415d9c;
+  padding: 7px; 
+}
+div{
+  background: #415d9c;
+  padding: 10px; 
+}
+a.knopka {
+  font-family: Century Gothic, sans-serif;
+  color: rgb(64,93,155); /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(162,219,242); /* фон кнопки */
+  padding: .4em 1.5em; /* отступ от текста */
+} 
+a.knopka:hover { background: rgb(64,93,155);
+color: #a2dcf2  } /* при наведении курсора мышки */
+a.knopka:active { 
+color: #a2dcf2
+background: rgb(64,93,155); } /* при нажатии */
+
+a.knopka1 {
+  font-family: Century Gothic, sans-serif;
+  display: inline-block;
+  font-size: 12px;
+  color: rgb(64,93,155);
+  text-decoration: none;
+  padding: .2em .8em;
+  outline: none;
+  border-right: 1px solid rgba(13,20,27,.5);
+  border-top: 1px solid rgba(270,278,287,.01);
+  /*background-color: rgb(64,73,82);*/
+  background-image:
+   radial-gradient(1px 60% at 0% 50%, rgba(255,255,255,.3), transparent),
+   radial-gradient(1px 60% at 100% 50%, rgba(255,255,255,.3), transparent),
+   linear-gradient(rgb(162,219,242), rgb(163,220,243));
+}
+a.knopka1:hover {
+  color: #a2dcf2;
+  background-image:
+   radial-gradient(1px 60% at 0% 50%, rgba(255,255,255,.3), transparent),
+   radial-gradient(1px 60% at 100% 50%, rgba(255,255,255,.3), transparent),
+   linear-gradient(rgb(64,93,155), rgb(64,93,155));
+}
+
+
+/*a.knopka1:focus {
+  color: rgb(245,247,250);
+  border-top: 1px solid rgb(67,111,136);
+  background-image:
+   linear-gradient(rgb(46,95,122), rgb(36,68,92));
+}
+a.knopka1:focus:hover {
+  border-top: 1px solid rgb(49,87,107);
+  background-image:
+   linear-gradient(rgb(33,77,98), rgb(29,57,77));
+}
+
+
+
+/*a{
+  font-family: Century Gothic, sans-serif
+  font-weight: bold;
+  /*background: #fc0;
+}
+
+
+/*b {
+  color: #2CFE0C;
+  font-family: Times New Roman, Verdana, sans-serif;
+  padding: 7px; 
+  border: 1px solid #333; 
+  background: maroon;
+}
+body{
+  background-color: #F4D2D2; 
+}
+e {
+  font-family: Times New Roman, Verdana, sans-serif;
+  padding: 7px; 
+  border: 1px solid #666; 
+  background: #898888;
+}
+d {
+  color: #010000;
+  font-family: URW Chancery L, cursive;
+  font-size: 150%;
+}*/
