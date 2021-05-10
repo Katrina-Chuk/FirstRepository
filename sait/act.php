@@ -16,24 +16,7 @@ VALUES ('".$_POST['username']."','".$_POST['login']."', '".$_POST['email']."','"
 
 
 if (mysqli_query($conn, $sql)) {
- echo "Запись успешно добавлена</br>";
- echo "<h2>Your Input:</h2>";
-echo $_POST['username'];
-echo "<br>";
-echo $_POST['login'];
-echo "<br>";
-echo $_POST['email'];
-echo "<br>";
-echo $_POST['password'];
-echo "<br>";
-echo $_POST['sex'];
-echo "<br>";
-echo $_POST['who'];
-echo "<br>";
-echo $_POST['text'];
-echo "<br>";
-echo "<a href='main.html'>На главную</a>";
-
+ include('./end_reg.html');
 } else {
  echo "Ошибка добавления записи: " . $sql . "<br>" .
 mysqli_error($conn);
