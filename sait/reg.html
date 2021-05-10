@@ -13,53 +13,49 @@
             <b><a href="login.html" class="knopka1">Вход</a></b>
         </header>
         <h2>Форма регистрации</h2>
-<table align="center">
-    <tr>
+<form action="act.php" method="post" name="form1" align="center">
+	<p>
         <td>Имя:</td>
         <td width="350"><input type="text" name="username" placeholder="Введите имя" required="" /></td>
-    </tr>  
-    <tr>
+    </p>  
+    <p>
         <td>Логин:</td>
-        <td width="250"><input type="text" name="username" required placeholder="Введите логин"/></td>
-    </tr>    
-    <tr>
+        <td width="250"><input type="text" name="login" required placeholder="Введите логин"/></td>
+    </p>    
+    <p>
         <td>Эл.адрес:</td>
         <td width="250"><input type="text" name="email"placeholder="guap@mail.ru" required=""/></td>
-    </tr>
-    <tr>
+    </p>
+    <p>
         <td>Пароль:</td>
         <td width="300"><input type="password"name="password" placeholder="Введите пароль" required /></td>
-    </tr>
-        <tr>
+    </p>
+        <p>
         <td>Повторите пароль:</td>
-        <td width="300"><input type="password"name="password" placeholder="Повторите пароль" required="" /></td>
-    </tr>
-    <tr>
+        <td width="300"><input type="password"name="repassword" placeholder="Повторите пароль" required="" /></td>
+    </p>
+    <p>
         <td>Пол: </td>
          <td width="250"><input name="sex" type="radio"value="male" required="">
          Мужской
         <input name="sex" type="radio" value="female" />Женский 
         </td>
-    </tr>
-    <tr>
+    </p>
+    <p>
         <td>Кто вы? </td>
-         <td width="250"><input name="who" type="radio"value="male" required="">
+         <td width="250"><input name="who" type="radio"value="teacher" required="">
          Преподаватель
-        <input name="who" type="radio" value="female" /> Ученик
+        <input name="who" type="radio" value="student" /> Ученик
         </td>
-    </tr>
-    <tr>
+    </p>	
+    <p>
         <td>Возраст:</td>
         <td width="300"><input placeholder="Введите Возраст" type="text"name="text" required="" /></td>
-    </tr>
-    <tr>
-        <td><a href="http://www.consultant.ru/document/cons_doc_LAW_61801/6c94959bc017ac80140621762d2ac59f6006b08c/">Обработка персональных данных</td></p>
-        <td><input type="checkbox" name="subscribe" value="1"checked required="" />Согласен</td>
-    </tr>
-</table>
-<br>
-    <div align="center">
-        <td><a href="end_reg.html" class="knopka">Зарегистрироваться</a></td>
-    </div>
-    </body>
+    </p>
+    <p>
+        <td><a href="http://www.consultant.ru/document/cons_doc_LAW_61801/6c94959bc017ac80140621762d2ac59f6006b08c/">Обработка персональных данных <input type="checkbox" name="subscribe" value="1"checked required="" />Согласен</td></p>
+    </p>
+	<p><input name="submit" type="submit" value="Зарегистрироваться"></p>
+</form>
+</body>
 </html>
